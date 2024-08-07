@@ -5,6 +5,5 @@ def escreva(txt):
     print('=' * len(txt))
 
 
-
 frase = str(input('Escreva uma frase: '))
 escreva(frase)
