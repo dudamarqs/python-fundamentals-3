@@ -20,10 +20,8 @@ def maior(* num):
     print(f'O maior valor informado é {maior}.')
 
 
-
 maior(5, 2, 8, 1, 0)
 maior(3, -2, 0, 5, 7, 2, 1, 13)
 maior(2, 3, 1, 5)
 maior(8, 5)
 maior()
-
