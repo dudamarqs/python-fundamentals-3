@@ -10,4 +10,3 @@ Este repositório contém as atividades e projetos desenvolvidos durante o Mundo
 - **Conteúdo 4:** Funções em Python
 - **Conteúdo 5:** Modularização em Python
 - **Conteúdo 6:** Tratamento de Erros em Python
-  
