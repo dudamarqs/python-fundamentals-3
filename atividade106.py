@@ -9,8 +9,9 @@ c = ('\033[m',          # 0 - sem cor
 
 def ajuda(com):
     from time import sleep
-    print(f'\nAcessando o manual do comando {com}...')
+    print(f'\n{c[4]}Acessando o manual do comando < {com} >...{c[0]}')
     sleep(1)
+
     help(com)
 
 
@@ -24,11 +25,11 @@ def titulo(mensagem, cor=0):
 comando = ''
 
 while True:
-    titulo('SISTEMA DE AJUDA PyHELP', 3)
+    titulo('SISTEMA DE AJUDA PyHELP', 5)
     comando = str(input('Função ou Bibliteca (digite "fim" para finalizar) > '))
     if comando.upper() == 'FIM':
         break
     else:
         ajuda(comando)
 
-titulo('ATÉ LOGO!', 1)
+titulo('ATÉ LOGO!', 2)
